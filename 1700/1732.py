@@ -1,0 +1,6 @@
+a=input()
+x=int(a.split(" ")[0])
+y=int(a.split(" ")[1])
+print("%.1f" % (x/y))
+print(x//y)
+print(pow(x,y))
