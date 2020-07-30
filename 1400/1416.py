@@ -1,2 +1,1 @@
-a=int(input())
-print(bin(a)[2:])
+print(bin(int(input()))[2:])
