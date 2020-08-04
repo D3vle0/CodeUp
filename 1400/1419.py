@@ -1,2 +1,1 @@
-a=input()
-print(a.count("love"))
+print(input().count("love"))
