@@ -1,0 +1,1 @@
+main(a){const int d=1130;scanf("%d",&a);printf("%d",a*d);}
