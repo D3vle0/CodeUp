@@ -1,6 +1,5 @@
 #include <stdio.h>
 long long int n;
-#include <stdlib.h>
 long long int abs(long long int x){
     if (x>=0)
         return x;
