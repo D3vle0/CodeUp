@@ -6,7 +6,9 @@ int main() {
     scanf("%d", &n);
     for(int i=0;i<n;i++){
         root=sqrt(n-i);
-        if (root == (int)root)
-            printf("%d %d\n",i,sqrt(n-i));
+        if (root == (int)root){
+            printf("%d %.0f\n",i,root);
+            break;
+        }
     }
 }
