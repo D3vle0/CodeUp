@@ -1,0 +1,1 @@
+void f(int a){if(a>0){printf("%d\n",a);a--;f(a);}}main(n){scanf("%d",&n);f(n);}

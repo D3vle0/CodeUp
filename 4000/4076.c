@@ -1,0 +1,1 @@
+double a;main(m,v,r){scanf("%d%d%d",&m,&v,&r);a=(double)m/v;printf("%.2f %s",a,a==r?"STOP":a<r?"UP":"DOWN");}

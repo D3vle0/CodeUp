@@ -1,0 +1,2 @@
+#include<math.h>
+main(n){scanf("%d",&n);if(n<501)printf("%.0f",floor(n*0.7));else if(n>500&&n<1501)printf("%.0f",floor(350+(n-500)*0.4));else if(n>1500&&n<4501)printf("%.0f",floor(750+(n-1500)*0.15));else if(n>4500&&n<10001)printf("%.0f",floor(1200+(n-4500)*0.05));else printf("%.0f",floor(1475+(n-10000)*0.02));}
