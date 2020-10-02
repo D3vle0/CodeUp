@@ -1,0 +1,1 @@
+A;B;a[11];b[11];main(i){for(i=0;++i<11;)scanf("%d",&a[i]);for(i=0;++i<11;)scanf("%d",&b[i]);for(i=0;++i<11;)if(a[i]>b[i])A++;else if(a[i]<b[i])B++;printf("%c",A==B?'D':A>B?'A':'B');}
